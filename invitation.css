@@ -152,3 +152,12 @@ html,body{margin:0;min-height:100%;}
 .event .cocktail-art{width:116px;height:154px;top:86px;right:24px}.cocktail-event h3{max-width:calc(100% - 112px)}
 @media(max-width:680px){.event .cocktail-art{width:100px;height:142px;top:92px;right:20px}.cocktail-event h3{max-width:calc(100% - 94px)}}
 @media(max-width:360px){.event .cocktail-art{width:85px;height:128px;right:17px}.cocktail-event h3{max-width:calc(100% - 80px)}}
+
+.scroll-motion-arrow{display:block;color:#96703c;animation:celebrationArrow 2s ease-in-out infinite}.scroll{gap:8px}.hero .scroll{min-height:65px}@keyframes celebrationArrow{0%,100%{transform:translateY(-4px);opacity:.65}50%{transform:translateY(5px);opacity:1}}@media(prefers-reduced-motion:reduce){.scroll-motion-arrow{animation:none}}
+
+/* Approved event artwork, embedded for dependable mobile delivery. */
+.event .event-art{display:block;position:absolute;right:25px;top:100px;width:132px;height:auto;background-repeat:no-repeat;z-index:2;pointer-events:none;border-radius:5px;box-shadow:0 2px 9px #8e6d2e0a}
+.illustrated-event h3{max-width:calc(100% - 126px);font-size:clamp(37px,4.2vw,53px);min-height:104px;display:flex;align-items:center}
+.event .carnival-art{border:1px solid #c3a46a;border-radius:5px;box-shadow:0 3px 10px #63431915}
+@media(max-width:680px){.event .event-art{right:21px;top:102px;width:111px}.illustrated-event h3{max-width:calc(100% - 106px);font-size:39px;min-height:103px}.event .carnival-art{width:112px}}
+@media(max-width:360px){.event .event-art{right:18px;width:93px;top:110px}.illustrated-event h3{max-width:calc(100% - 88px);font-size:34px;min-height:104px}.event .carnival-art{width:94px}}
